@@ -1,33 +1,57 @@
 .header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    background-color: #ccc;
 }
-.header__branch {
 
+.header__left {
+    margin-left: 24px;
+    display: flex;
+}
+
+.header__right {
+    display: flex;
+    font-size: 1.2rem;
+}
+
+.header__branch {
+    line-height: 4.2rem;
 }
 
 .header__date-time {
     display: flex;
+    margin-left: 64px;
+    font-size: 1.2rem;
 }
 
 .date-time__item {
+    margin-right: 16px;
 
 }
 
 .header__cust {
-
+    line-height: 4.2rem;
 }
 
 .header__user {
     display: flex;
+    align-items: center;
+    margin: auto 24px;
 }
-
+.header__user:hover {
+    color: #fff;
+    cursor: pointer;
+}
 .user__icon {
-
 }
 .user__name {
+    margin: auto 8px;
 
 }
 .user__img {
-
+    width: 32px;
+    height: 32px;
+    background-color: #ff8888;
+    border-radius: 20px;
 }

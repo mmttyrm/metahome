@@ -20,6 +20,9 @@ a {
     text-decoration: none;
     color: var(--text-color);
 }
+h1 {
+    margin: 0;
+}
 
 html {
     /* Hack */
@@ -27,4 +30,21 @@ html {
     line-height: 1.6rem;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+}
+
+.btn {
+    --height-btn: 42px;
+    min-width: 42px;
+    height: var(--height-btn);
+    text-align: center;
+    line-height: var(--height-btn);
+    
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.hover:hover {
+    color:#fff;
 }
