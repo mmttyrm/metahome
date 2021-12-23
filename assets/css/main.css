@@ -1,8 +1,16 @@
+
+.main {
+    background-color: #E7ECEF;
+    min-height: 100vh;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ccc;
+    background-color: #f1f1f1;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .header__left {
@@ -34,13 +42,18 @@
     line-height: 4.2rem;
 }
 
+.header__cust:hover{
+    color: var(--color-hover);
+    cursor: pointer;
+}
+
 .header__user {
     display: flex;
     align-items: center;
     margin: auto 24px;
 }
 .header__user:hover {
-    color: #fff;
+    color: var(--color-hover);
     cursor: pointer;
 }
 .user__icon {
@@ -53,5 +66,18 @@
     width: 32px;
     height: 32px;
     background-color: #ff8888;
-    border-radius: 20px;
+    border-radius: 100%;
+}
+
+.nav-bar__items {
+    display: flex;
+    padding: 8px 24px;
+    margin: 4px 0;
+    font-size: 1.4rem;
+}
+
+.nav-bar__icon {
+    display: block;
+    min-width: 24px;
+    margin-right: 4px;
 }

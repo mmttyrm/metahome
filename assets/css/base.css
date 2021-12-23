@@ -2,6 +2,7 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
+    --color-hover: #ccc;
 }
 
 
@@ -42,9 +43,11 @@ html {
 }
 
 .btn:hover {
-    color: #fff;
+    color:var(--color-hover);
+    cursor: pointer;
 }
 
 .hover:hover {
-    color:#fff;
+    color:var(--color-hover);
+    cursor: pointer;
 }
