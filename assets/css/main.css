@@ -71,13 +71,34 @@
 
 .nav-bar__items {
     display: flex;
-    padding: 8px 24px;
+    padding: 12px 24px;
     margin: 4px 0;
     font-size: 1.4rem;
+}
+
+.nav-bar__items:hover {
+    border-bottom-right-radius: 10px;
+    background-color: #274C77;
+    margin-right: 24px;
+    border-top-right-radius: 10px;
+    color: var(--white-color);
+}
+
+.nav-bar__items:hover .nav-bar__link{
+    color: var(--white-color);
+
+}
+
+.nav-bar__items:last-child {
+    margin-top: 20vh;
 }
 
 .nav-bar__icon {
     display: block;
     min-width: 24px;
     margin-right: 4px;
+}
+
+.weather {
+    display: flex;
 }
